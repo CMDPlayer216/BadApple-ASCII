@@ -3,43 +3,22 @@
 ---
 ## Uso
 Para usarlo, deberás poner el video de **BadApple!!** en la carpeta del proyecto posterior a clonarlo con el nombre **BadApple.mp4**
-### Ejecución sencilla (primera ejecución)
+### Ejecución sencilla
 ```bash
-chmod +x execute.sh
-./execute.sh
+chmod +x prepare.sh
+./prepare.sh --execute
 ```
 ### Ejecución con argumentos
-#### a. Si ya has ejecutado `execute.sh`:
+Primero preparemos el entorno:
 ```bash
-dotnet run -- [Argumentos]
+chmod +x prepare.sh
+./prepare.sh
 ```
-### b. Si no lo has ejecutado:
-Preparación:
+
+Ahora ejecutamos:
 ```bash
-# Instalar dependencias
-# Usar sudo apt install en Debian/Ubuntu o derivados
-# Usar sudo dnf install en Fedora o derivados
-sudo pacman -S ffmpeg dotnet-sdk python lolcat toilet --needed
-# Instalar dependencias de python
-python -m venv .venv
-source .venv/bin/activate
-pip install -r requirements.txt
-# Crear carpeta de imágenes
-mkdir -p frames
-# Procesar video a imágenes (puede tardar dependiendo de tu dispositivo)
-ffmpeg -i BadApple.mp4 -vf "fps=30,scale=80:30:flags=neighbor" -q:v 2 frames/frame_%04d.png
-# Crear carpeta de imágenes en ASCII
-mkdir -p txt_frames
-# Procesar imágenes a ASCII
-python FramesToASCII.py
-# Extraer audio de BadApple.mp4
-ffmpeg -i BadApple.mp4 audio.wav
+dotnet run -- [argumentos]
 ```
-Ejecución:
-```bash
-dotnet run -- [Argumentos]
-```
----
 ## Opciones disponibles
 ```text
 -h,         --help                    Muestra ayuda
