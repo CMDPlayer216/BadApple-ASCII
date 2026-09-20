@@ -8,6 +8,7 @@ Para usarlo, deberás poner el video de **BadApple!!** en la carpeta del proyect
 chmod +x prepare.sh
 ./prepare.sh --execute
 ```
+El script instala todas las dependencias (incluyendo el SDK de .NET) y crea todos los archivos y carpetas necesarios en base al archivo `BadApple.mp4`.
 ### Ejecución con argumentos
 Primero preparemos el entorno:
 ```bash
