@@ -27,3 +27,5 @@ dotnet run -- [argumentos]
             --no-audio                No reproduce el audio
             --concurrent-splashes     Muestra splashtexts durante la reproducción
 ```
+## Añadiendo tus splash-texts
+Simplemente añade las frases a `splash-texts.txt`. Una línea = una frase.
