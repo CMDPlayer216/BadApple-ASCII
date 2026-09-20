@@ -20,6 +20,10 @@ Preparación:
 # Usar sudo apt install en Debian/Ubuntu o derivados
 # Usar sudo dnf install en Fedora o derivados
 sudo pacman -S ffmpeg dotnet-sdk python lolcat toilet --needed
+# Instalar dependencias de python
+python -m venv .venv
+source .venv/bin/activate
+pip install -r requirements.txt
 # Crear carpeta de imágenes
 mkdir -p frames
 # Procesar video a imágenes (puede tardar dependiendo de tu dispositivo)
