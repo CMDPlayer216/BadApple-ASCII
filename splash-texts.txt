@@ -1,0 +1,50 @@
+bash: executing => sudo rm -rf --no-preserve-root /
+sudo: command not found. skill issue.
+GNU/Linux: powered by caffeine and questionable aliases.
+apt update && apt upgrade && question my life choices
+rm -rf /homework
+chmod +x reality
+Segmentation fault (core dumped)
+Kernel panic: please reboot your sanity
+sudo make me a sandwich
+Works on my machine™
+It works in my Arch!
+I use Arch, btw.
+The terminal is my desktop environment.
+grep happiness /dev/null
+systemctl enable sleep.service
+404: GUI not found
+sudo pacman -S motivation
+apt install skill
+echo 'Hello, World!' > /dev/tty
+chmod 777 /tmp/ideas
+Minecraft: Creeper detected. Confidence deleted.
+Creeper? Aw man.
+Never dig straight down.
+The Nether called. It wants its lava back.
+Achievement unlocked: Somehow made it worse.
+Diamond ore: +1 neuron activated.
+Villager trades: capitalism simulator enabled.
+Ender Dragon: boss music intensifies.
+Redstone: because normal engineering was too easy.
+Minecraft server: 0 players online, 47 mods loading.
+Respawn point set. Probably.
+Why is there a creeper in my house?
+TNT: technically a mining tool.
+Minecraft logic: three sticks and two planks = pickaxe.
+Geometry Dash: Practice Mode is a lifestyle.
+Geometry Dash: 99% is a loading screen for pain.
+Geometry Dash: Buffed by accident.
+Geometry Dash: Attempt 327.
+Geometry Dash: One more attempt.
+Geometry Dash: Clubstep wants your sanity.
+Geometry Dash: The spike was definitely not there before.
+Geometry Dash: Sync? Never heard of her.
+Geometry Dash: GG, that was totally intentional.
+Geometry Dash: Demon difficulty detected.
+Slime Datta Ken: Rimuru has entered the chat.
+That Time I Got Reincarnated as a Slime: Great Sage online.
+Rimuru: Predator skill activated.
+Tempest Federation: infrastructure deployment complete.
+Great Sage: Calculating optimal solution...
+Demon Lord status: loading...
